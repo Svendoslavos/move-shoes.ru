@@ -206,6 +206,30 @@ body {
     color: #ffffff;
     font: 12px 'lucida_grandebold';
 }
+.search {
+    float: right;
+    width: 390px;
+    height: 50px;
+}
+input[type="search"] {
+    position: relative;
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 390px; /* Ширина поля */
+    height: 50px;
+    background-color: #005892;
+    vertical-align: middle; /* Выравнивание по середине */
+    border-top: 4px solid #004878;
+}
+input[type="submit"] {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: url(../img/search_icon.png) no-repeat 50% 50%;
+    padding: 7px;
+}
 /* Middle
 -----------------------------------------------------------------------------*/
 .middle {
