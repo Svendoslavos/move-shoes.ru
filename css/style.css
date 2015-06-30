@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'sf_outer_limitsregular';
+    src: url('../fonts/sf_outer_limits-webfont.eot');
+    src: url('../fonts/sf_outer_limits-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/sf_outer_limits-webfont.woff2') format('woff2'),
+    url('../fonts/sf_outer_limits-webfont.woff') format('woff'),
+    url('../fonts/sf_outer_limits-webfont.ttf') format('truetype'),
+    url('../fonts/sf_outer_limits-webfont.svg#sf_outer_limitsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'lucida_granderegular';
+    src: url('../fonts/lucida_grande-webfont.eot');
+    src: url('../fonts/lucida_grande-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lucida_grande-webfont.woff2') format('woff2'),
+    url('../fonts/lucida_grande-webfont.woff') format('woff'),
+    url('../fonts/lucida_grande-webfont.ttf') format('truetype'),
+    url('../fonts/lucida_grande-webfont.svg#lucida_granderegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'lucida_grandebold';
+    src: url('../fonts/lucida_grande_bold-webfont.eot');
+    src: url('../fonts/lucida_grande_bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lucida_grande_bold-webfont.woff2') format('woff2'),
+    url('../fonts/lucida_grande_bold-webfont.woff') format('woff'),
+    url('../fonts/lucida_grande_bold-webfont.ttf') format('truetype'),
+    url('../fonts/lucida_grande_bold-webfont.svg#lucida_grandebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+a {
+    text-decoration: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+.wrapper {
+	width: 100%;
+	min-width: 1920px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 165px;
+}
+.block {
+    position: relative;
+    width: 1920px;
+    margin: 0 auto;
+}
+.logo  a {
+    font: 30px 'sf_outer_limitsregular';
+    color: #000000;
+    float:  left;
+    padding: 25px;
+}
+.topmenu {
+    float: left;
+    padding-top: 29px;
+}
+.topmenu ul li {
+    display: inline-block;
+    border-right: 1px solid #eeeeee;
+    padding: 0 25px;
+}
+.topmenu ul li a {
+    font: 13px 'lucida_granderegular';
+    color: #646d73;
+}
+.topmenu ul li a:hover{
+    color: #0e7dc7;
+}
+.num {
+    float: right;
+    padding-top: 15px;
+}
+.num p {
+    padding-top: 13px;
+    padding-right: 26px;
+    font: 13px 'lucida_granderegular';
+    color: #646d73;
+    float: left;
+}
+.num span {
+    font: 16px 'lucida_grandebold';
+    color: #000000;
+    padding-right: 21px;
+}
+.num a {
+    border: 1px solid #0e7dc7;
+    font: 12px 'lucida_grandebold';
+    padding: 12px;
+    text-transform: uppercase;
+    float: left;
+}
+.cart {
+    position: relative;
+    float: right;
+    height: 70px;
+    border-left: 1px solid #eeeeee;
+    width: 80px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: 18px;
+}
+.cart img {
+    padding-top: 25px;
+}
+.goods {
+    position: absolute;
+    background: #0e7dc7;
+    border-radius: 50%;
+    height: 15px;
+    width: 18px;
+    font: 9px 'lucida_granderegular';
+    color: #ffffff;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border: 2px solid #ffffff;
+    top: 15px;
+    right: 15px;
+    padding-top: 3px;
+}
+.topnav {
+    margin-top: 70px;
+    position: absolute;
+    background-color: #0e7dc7;
+    width: 1920px;
+}
+.topnav ul{
+   width: 60%;
+}
+.topnav ul li {
+    display: inline-block;
+    border-right: 1px solid #1790e0;
+    padding: 20px 25px;
+    float: left;
+}
+.topnav ul li a{
+    font: 12px 'lucida_grandebold';
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.search {
+    float: right;
+    height: 100%;
+}
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	padding: 0 0 255px;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.content {
+	padding: 0 0 0 335px;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 315px;
+	margin-left: -100%;
+	position: relative;
+	background: #B5E3FF;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin: -255px auto 0;
+	min-width: 1920px;
+	height: 255px;
+	background: #BFF08E;
+	position: relative;
+}
