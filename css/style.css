@@ -109,7 +109,6 @@ body {
 	height: 165px;
 }
 .block {
-    position: relative;
     width: 1920px;
     margin: 0 auto;
 }
@@ -188,29 +187,24 @@ body {
     right: 15px;
     padding-top: 3px;
 }
-.topnav {
-    margin-top: 70px;
-    position: absolute;
+.block2 {
+    width: 100%;
+    height: 50px;
     background-color: #0e7dc7;
-    width: 1920px;
+    float: left;
 }
-.topnav ul{
-   width: 60%;
+.topnav {
+    float: left;
 }
 .topnav ul li {
     display: inline-block;
+    padding: 16px 44px;
     border-right: 1px solid #1790e0;
-    padding: 20px 25px;
-    float: left;
 }
-.topnav ul li a{
-    font: 12px 'lucida_grandebold';
-    color: #ffffff;
+.topnav ul li a {
     text-transform: uppercase;
-}
-.search {
-    float: right;
-    height: 100%;
+    color: #ffffff;
+    font: 12px 'lucida_grandebold';
 }
 /* Middle
 -----------------------------------------------------------------------------*/
